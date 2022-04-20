@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.flex{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+}
+
+/* Header */
+/* ------------------------------ */
+header{
+    background-color: #116CFF;
+    padding-top: 5vh;
+}
+
+#header{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    order: 1;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+}
+
+.C{
+    background-color: #FFF;
+    display: grid;
+    color: #00235C;
+    place-content: center;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 22.5px;
+    padding: 6px 11px;
+}
+
+.text{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #00235C;
+}
+
+#header > nav{
+    order: 2;
+    display: flex;
+    gap: 92px;
+}
+
+#header > nav > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header > nav > a:nth-of-type(1){
+    font-style: bold;
+    font-weight: 800;
+}
+
+#header > .login{
+    order: 3;
+}
+
+#header > .login > .btn{
+    background-color: #FFF;
+    padding: 10px 30px;
+    color: #116CFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Main */
+/* ------------------------------ */
+
+main > div{
+    height: 100vh;
+}
+
+main > div:nth-of-type(2n+1){
+    background-color: #116CFF;
+}
+
+/* Sessao 1 */
+/* ------------------------------ */
+
+#section1 > .container > div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#section1 > .container > div > h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+}
+
+#section1 > .container > div > p{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+#section1 > .container > div > p > span{
+    display: block;
+}
+
+#section1 > .container > div > div{
+    display: flex;
+    gap: 24px;
+}
+
+#section1 > .container > div > div > .btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 200px;
+}
+
+#section1 > .container > div > div > .btn:nth-of-type(1){
+    background-color: #FFF;
+    color: #116CFF;
+    padding: 15px;
+}
+
+#section1 > .container > div > div > .btn:nth-of-type(2){
+    border: 1px solid #FFF;
+    padding: 15px;
+}
+
+/* Sessao 2 */
+/* ------------------------------ */
+
+#section2 > .container > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#section2 > .container > div:nth-of-type(2) > h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 60px;
+}
+
+/* Footer 1 */
+/* ------------------------------ */
+
+footer{
+    background-color: #00235C;
+    height: 363px;
+}
