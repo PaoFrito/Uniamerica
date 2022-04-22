@@ -17,13 +17,6 @@ h2{
     line-height: 60px;
 }
 
-h3{
-    font-style: bold;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-}
-
 p{
     font-weight: 400;
     font-size: 16px;
@@ -357,8 +350,89 @@ main > div:nth-of-type(2n+1){
     background-color: #FFF;
     padding: 16px;
     margin-bottom: 1px;
-    color: #116CFF;
+    text-align: center;
+    color: #FF463A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
+
+#section5 > div > div > div:first-child{
+    color: #00235C !important;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#section5 > div > div > div:first-child > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#section5 > div > div > div:first-child > div{
+    width: 100%;
+}
+
+#section5 > div > div > div:first-child > div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height:normal;
+}
+
+.MyBtn{
+    background-color: #116CFF;
+    color: #FFF;
+    width: 135px;
+    height: 50px;
+    padding: 13px 20px;
+}
+
+.last::after{
+    content: "★";
+    -webkit-text-stroke: 0.1px #FF463A;
+    color: #FFF;
+}
+
+#section5 > div > div > div > div:first-child{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    color: #116CFF;
+    text-align: left;
+    gap: 16px;
+}
+
+#section5 > div > div > div > div:last-child{
+    color: #00235C;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.orange{
+    color: #FF463A !important;
+}
+
+.new{
+    padding-bottom: 4px;
+    width: 47px;
+    height: 25px;
+    background: #FFE6E5;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FF463A;
+    align-self: center;
+}
+
 
 /* Footer 1 */
 /* ------------------------------ */
