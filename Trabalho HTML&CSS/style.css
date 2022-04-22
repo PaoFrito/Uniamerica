@@ -350,11 +350,8 @@ main > div:nth-of-type(2n+1){
 }
 
 #section5 > div > div > div{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
     background-color: #FFF;
     padding: 16px;
     margin-bottom: 1px;
@@ -367,4 +364,5 @@ main > div:nth-of-type(2n+1){
 footer{
     background-color: #00235C;
     height: 363px;
+    color: #FFF;
 }
