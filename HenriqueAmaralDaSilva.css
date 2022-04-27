@@ -6,11 +6,83 @@
     border: 0;
     box-sizing: border-box;
     font-family: poppins;
+    font-style: 'regular';
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    color: #FFF;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+button{
+    background-color: #50B2EA;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: 'bold';
+    line-height: 22px;
 }
 
 footer{
     background-color: #19435A;
     height: 80px;
+}
+
+.icons{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.icons-box > h6{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ChaveInglesaIcon{
+    margin: 10px;
+    width: 39.77px;
+    height: 39.77px;
+    transform: rotate(45deg);
+}
+
+.border{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    transform: rotate(-45deg);
 }
 
 .section1{
@@ -19,10 +91,10 @@ footer{
     background-repeat: no-repeat;
     width: 100vw;
     height: 96vh;
-
+    padding-top: 16vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -35,20 +107,38 @@ footer{
 
 .logoTitle{
     font-style: bold;
-    font-weight: 700;
     color: #FFF;
     text-transform: uppercase;
     line-height: 104.5%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 324px;
     letter-spacing: 0;
     line-height: 104.5%;
-    font-size: 48px;
 }
 
 .logoTitle > span:last-child{
-    letter-spacing: 10px;  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     font-size: 32px; 
+}
+
+.mainContent{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainContent > p{
+    color: #FFF;
+    max-width: 520px;
+}
+
+.CTA{
+    padding: 20px 59px;
 }
