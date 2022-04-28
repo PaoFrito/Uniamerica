@@ -47,25 +47,6 @@ footer{
     height: 80px;
 }
 
-.icons{
-    width: 550px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.icons-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-.icons-box > h6{
-    color: #FFFFFF;
-    text-align: center;
-}
 
 .ChaveInglesaIcon{
     margin: 10px;
@@ -85,17 +66,18 @@ footer{
     transform: rotate(-45deg);
 }
 
+/* Sessao 1 */
+
 .section1{
     background-image: url("img/Banner.png");
-    background-size:contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 96vh;
-    padding-top: 16vh;
+    width: 100%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
 }
 
 
@@ -103,6 +85,7 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 14px;
+    margin-bottom: 94px;
 }
 
 .logoTitle{
@@ -110,10 +93,12 @@ footer{
     color: #FFF;
     text-transform: uppercase;
     line-height: 104.5%;
-
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 324px;
     letter-spacing: 0;
     line-height: 104.5%;
@@ -137,8 +122,180 @@ footer{
 .mainContent > p{
     color: #FFF;
     max-width: 520px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.icons-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.icons-box > h6{
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .CTA{
     padding: 20px 59px;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+}
+
+/* Sessao 2 */
+
+.section2{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 55%, rgba(80,178,234,1) 55%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 100px 0 50px;
+}
+
+.section2 > button{
+    padding: 16px 50px;
+    margin: 50px 0 50px 0;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+}
+
+.section2 > div{
+    background-color: #50B2EA;
+    border: 4px solid #FFF;
+    border-radius: 40px;
+    max-width: 70vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.section2 > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section2Texts{
+    text-align: left;
+    padding: 85px 0 85px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.section2Texts > h2{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.section2Texts > p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.section2Texts > div{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;  
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section2Texts > div > div{
+    width: 100%;
+    display: flex;
+    gap: 14px;
+}
+
+.section2 > div > img{
+    width: 43%; 
+}
+
+/* Sessao 3 */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 50px 0 50px 0;
+}
+
+.section3Top{
+    background-image: url("./img/banner.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3Top > h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFF;
+    margin: 50px 0 50px 0;
+}
+
+.section3Icons{
+    display: flex;
+    flex-direction: row;
+    gap: 82px;
+    margin-bottom: 38px;
+}
+
+.section3Icons > .border{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #FFFFFF;
+}
+
+.section3Icons > .border > .ChaveInglesaIcon{
+    width: 60px;
+    height: 60px;
+}
+
+.section3Bot{
+    display: flex;
+    flex-direction: row;
+    gap: 82px;
+    justify-content: center;
+    margin: 28px 0 50px 0;
+
+}
+
+.section3Bot > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 180px;
+    text-align: center;
 }
