@@ -8,21 +8,44 @@
 </head>
 <body>
     <nav>
-        <a href="./EX_01/">a</a>
-        <a href="./EX_02/">b</a>
-        <a href="./EX_03/">c</a>
-        <a href="./EX_04/">d</a>
-        <a href="./EX_05/">e</a>
-        <a href="./EX_06/">f</a>
-        <a href="./EX_07/">g</a>
-        <a href="./EX_08/">h</a>
-        <a href="./EX_09/">i</a>
-        <a href="./EX_10/">j</a>
-        <a href="./EX_11/">k</a>
-        <a href="./EX_12/">l</a>
-        <a href="./EX_13/">m</a>
-        <a href="./EX_14/">n</a>
-        <a href="./EX_15/">o</a>
+        <a href="./EX_01/index.html">EX_01</a>
+        <a href="./EX_02/index.html">EX_02</a>
+        <a href="./EX_03/index.html">EX_03</a>
+        <a href="./EX_04/index.html">EX_04</a>
+        <a href="./EX_05/index.html">EX_05</a>
+        <a href="./EX_06/index.html">EX_06</a>
+        <a href="./EX_07/index.html">EX_07</a>
+        <a href="./EX_08/index.html">EX_08</a>
+        <a href="./EX_09/index.html">EX_09</a>
+        <a href="./EX_10/index.html">EX_10</a>
+        <a href="./EX_11/index.html">EX_11</a>
+        <a href="./EX_12/index.html">EX_12</a>
+        <a href="./EX_13/index.html">EX_13</a>
+        <a href="./EX_14/index.html">EX_14</a>
+        <a href="./EX_15/index.html">EX_15</a>
     </nav>
 </body>
+<style>
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    nav > a{
+        padding: 8px;
+        border-radius: 10px;
+        outline: none;
+        text-decoration: none;
+    }
+
+    nav > a:nth-of-type(2n){
+        background-color: aqua;
+    }
+
+    nav > a:nth-of-type(2n + 1){
+        background-color: rgb(143, 178, 178);
+    }
+</style>
 </html>
